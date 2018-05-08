@@ -18,7 +18,7 @@ $this->title = 'Graph Application';
                                                     'id'          => 'upload-form',
                                                     'layout'      => 'horizontal',
                                                     'fieldConfig' => [
-                                                        'template'     => "{label}\n<div class=\"col-lg-3\">{input}</div>\n<div class=\"col-lg-8\">{error}</div>",
+                                                        'template'     => "{label}\n<div class=\"col-lg-3\">{input}</div>\n<div class=\"col-lg-8 col-lg-offset-2\">{error}</div>",
                                                         'labelOptions' => ['class' => 'col-lg-1 control-label'],
                                                     ],
                                                 ]); ?>
